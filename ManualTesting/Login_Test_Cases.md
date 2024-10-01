@@ -39,7 +39,7 @@
   2. Leave the "Username" field empty.
   3. Enter a valid password in the "Password" field.
   4. Click the "Login" button.
--**Expected Result**: The system should display an error message indicating that the "Username" field cannot be left empty.
+- **Expected Result**: The system should display an error message indicating that the "Username" field cannot be left empty.
 
 ## Test Case 5: Empty Password Field
 -**Test Case ID**: TC_Login_005
@@ -49,7 +49,7 @@
   2. Enter a valid username in the "Username" field.
   3. Leave the "Password" field empty.
   4. Click the "Login" button.
--**Expected Result**: The system should display an error message indicating that the "Password" field cannot be left empty.
+- **Expected Result**: The system should display an error message indicating that the "Password" field cannot be left empty.
 
 ## Test Case 6: Password Reset Link
 -**Test Case ID**: TC_Login_006
@@ -58,7 +58,7 @@
   1. Open the login page: https://online.actitime.com/krn4/login.do.
   2. Click on the "Forgot your password?" link.
   3. Verify that the system redirects to the password reset page.
--**Expected Result**: The user should be redirected to the password reset page, where they can enter their email address to receive a reset link.
+- **Expected Result**: The user should be redirected to the password reset page, where they can enter their email address to receive a reset link.
 
 ## Test Case 7: Login with Special Characters in Username and Password
 -**Test Case ID**: TC_Login_007
@@ -69,7 +69,7 @@
   2. Enter a username with special characters in the "Username" field.
   3. Enter the corresponding password with special characters in the "Password" field.
   4. Click the "Login" button.
--**Expected Result**: The user is successfully logged in and redirected to the home page or dashboard.
+- **Expected Result**: The user is successfully logged in and redirected to the home page or dashboard.
 
 ## Test Case 8: Remember Me Functionality
 -**Test Case ID**: TC_Login_008
@@ -83,7 +83,7 @@
   5. Click the "Login" button.
   6. Log out from the application.
   7. Navigate back to the login page.
--**Expected Result**: The user should be automatically logged back in without needing to re-enter credentials.
+- **Expected Result**: The user should be automatically logged back in without needing to re-enter credentials.
 
 ## Test Case 9: UI Elements Verification
 -**Test Case ID**: TC_Login_009
@@ -97,7 +97,7 @@
     "Forgot your password?" link
     "Keep me logged in" checkbox
   3. Verify that all these elements are visible and clickable.
--**Expected Result**: All elements should be visible and fully functional.
+- **Expected Result**: All elements should be visible and fully functional.
 
 ## Test Case 10: Login Session Timeout
 -**Test Case ID**: TC_Login_010
@@ -107,7 +107,7 @@
   1. Log in with valid credentials.
   2. Leave the application idle for a predetermined session timeout period (e.g., 15 minutes).
   3. Attempt to perform any action.
--**Expected Result**: The user is logged out and redirected to the login page with a message indicating session timeout.
+- **Expected Result**: The user is logged out and redirected to the login page with a message indicating session timeout.
 
 ## Test Case 11: Concurrent Login Attempt
 -**Test Case ID**: TC_Login_011
@@ -116,7 +116,7 @@
 -**Steps**:
   1. Login with valid credentials on Device A.
   2. Attempt to log in with the same credentials on Device B.
--**Expected Result**: Depending on the application policy, either:
+- **Expected Result**: Depending on the application policy, either:
     Device B successfully logs in, and Device A is logged out.
     Device B receives an error message indicating the account is already in use.
 
@@ -127,7 +127,7 @@
   1. Open the login page in different web browsers (e.g., Chrome, Firefox, Safari, Edge).
   2. Enter valid credentials in each browser.
   3. Click the "Login" button in each browser.
--**Expected Result**: The user is successfully logged in and redirected to the dashboard/home page in all browsers.
+- **Expected Result**: The user is successfully logged in and redirected to the dashboard/home page in all browsers.
 
 ## Test Case 13: Mobile Responsiveness
 -**Test Case ID**: TC_Login_013
@@ -136,7 +136,7 @@
   1. Open the login page on a mobile device or use browser developer tools to simulate a mobile device.
   2. Enter valid credentials.
   3. Click the "Login" button.
--**Expected Result**: The login page is displayed correctly, and the user can log in without issues.
+- **Expected Result**: The login page is displayed correctly, and the user can log in without issues.
 
 
 
